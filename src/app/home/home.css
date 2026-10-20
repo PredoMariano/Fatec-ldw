@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: brown;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid brown;
+    outline: none;
+    background-color: burlywood;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+div {
+    border: 1px solid brown;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(234, 204, 158);
+}
