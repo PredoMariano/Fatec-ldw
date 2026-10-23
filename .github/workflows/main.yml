@@ -1,0 +1,15 @@
+name: Pipeline Angular
+on: push
+jobs:
+  ci-angular:
+    name: Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Angular Rodando :J :P"
+        name: "Passo Angular - Mensagem echo"
+      - name: 'Zipar Angular'
+        run: zip -r projetoAngular.zip
+      - name: Listar os arquivos do meu repositório
+        run: ls -la
+        
+
