@@ -7,7 +7,7 @@ jobs:
     steps:
       - run: echo "Angular Rodando :J :P"
         name: "Passo Angular - Mensagem echo"
-      - run: actions/checkout@v4
+      - uses: actions/checkout@v4
         name: Fazendo clone e checkout
       - name: 'Zipar Angular'
         run: zip -r projetoAngular.zip .
