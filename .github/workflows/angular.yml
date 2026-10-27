@@ -1,0 +1,9 @@
+name: Atualizado
+on: push
+jobs:
+  sexta-feira:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok
+        name: Verificado
+        
